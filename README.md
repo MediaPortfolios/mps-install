@@ -5,17 +5,11 @@ Forked from [MerlinWP](https://github.com/richtabor/MerlinWP).
 ![WordPress tested on verion 4.9.8](https://img.shields.io/badge/WordPress-tested%204.9.8-0073aa.svg?style=flat-square)
 ![PHP tested on version 7.2](https://img.shields.io/badge/PHP-tested%207.2-8892bf.svg?style=flat-square)
 
-[Media Portfolios Install](https://merlinwp.com) aims to address the tedious and exhausting WordPress theme setup and onboarding process. It makes installing a new WordPress theme, recommended WordPress plugins, Customizer settings, widgets, and demo content an exciting and gratifying user experience. [Read more...](https://richtabor.com/merlin-wp)
-
-## Beta & Testing
-
-Media Portfolios Install is currently in beta, it's not suggested to use Media Portfolios Install in production just yet, as there's still a few kinks and features to be added. If you run into anything, raise an [issue](https://github.com/richtabor/MerlinWP/issues) and let's work on it.
-
 ## Usage
 
 ### 1. Add Media Portfolios Install to your WordPress theme
 
-First, [download the latest release](https://github.com/richtabor/MerlinWP/releases) from the Media Portfolios Install GitHub reposity.  Next, add all of the files within the release into your theme.
+First, [download the latest release](https://github.com/MediaPortfolios/mps-install/releases) from the Media Portfolios Install GitHub reposity.  Next, add all of the files within the release into your theme.
 
 Now all you need to do is require the `class-merlin.php` class, `merlin-config.php` and the composer autoload files in your `functions.php`, like this:
 
@@ -112,20 +106,6 @@ You may also need to filter your theme demo's home page, so that Media Portfolio
 ### 6. Debugging/log file
 
 A log file is created in `.../wp-content/uploads/merlin-wp/main.log`. In the log file you will see, where something went wrong.
-
-### 7. Testing
-
-To test, you'll want to create a new standard WordPress installation and add your theme build with Media Portfolios Install integrated. You can then use the [WP Reset](https://wordpress.org/plugins/wp-reset/) plugin to reset and run through more tests.
-
-## Contributions
-
-Anyone is welcome to contribute to Media Portfolios Install. Please read the [guidelines for contributing](https://github.com/richtabor/MerlinWP/blob/master/.github/contributing.md) to this repository.
-
-There are various ways you can contribute:
-
-1. Raise an [Issue](https://github.com/richtabor/MerlinWP/issues) on GitHub
-2. Send a Pull Request with your bug fixes and/or new features
-3. Provide feedback and suggestions on [enhancements](https://github.com/richtabor/MerlinWP/issues?direction=desc&labels=Enhancement&page=1&sort=created&state=open)
 
 ## License
 
