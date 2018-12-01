@@ -2,6 +2,9 @@
 
 Forked from MerlinWP.
 
+![WordPress tested on verion 4.9.8](https://img.shields.io/badge/WordPress-tested%204.9.8-0073aa.svg?style=flat-square)
+![PHP tested on version 7.2](https://img.shields.io/badge/PHP-tested%207.2-8892bf.svg?style=flat-square)
+
 [Media Portfolios Install](https://merlinwp.com) aims to address the tedious and exhausting WordPress theme setup and onboarding process. It makes installing a new WordPress theme, recommended WordPress plugins, Customizer settings, widgets, and demo content an exciting and gratifying user experience. [Read more...](https://richtabor.com/merlin-wp)
 
 ## Beta & Testing
